@@ -536,7 +536,7 @@ const ly = leyou = {
      */
     http: axios,
     verify() {
-        return ly.http.get("api/auth/verify");
+        return ly.http.get("/auth/verify");
     },
     store: {
         set(key, value) {
